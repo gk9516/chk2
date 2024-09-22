@@ -5,10 +5,9 @@ import mimetypes
 
 app = Flask(__name__)
 CORS(app)
-
-USER_ID = "john_doe_17091999"
-EMAIL = "john@xyz.com"
-ROLL_NUMBER = "ABCD123"
+USER_ID = "ganeshk_02042004"
+EMAIL = "ganeshrajan2.00@gmail.com"
+ROLL_NUMBER = "RA2111003010298"
 
 @app.route('/bfhl', methods=['POST'])
 def bfhl_post():
